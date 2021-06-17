@@ -26,3 +26,19 @@ try {
         
 sdk.health(); // Health ping
 ```
+
+## Maven
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependency>
+    <groupId>com.github.Oskarr1239</groupId>
+    <artifactId>agones-sdk-4j</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
